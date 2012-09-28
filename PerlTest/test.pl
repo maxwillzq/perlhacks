@@ -1,4 +1,3 @@
-##µü´úËã·¨
 sub binary
 {
 	my ($input) = @_;
