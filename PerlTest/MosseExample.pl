@@ -1,12 +1,4 @@
-
-=pod
-
-=head1 NAME
-
-The main goal of Moose is to make Perl 5.OO programming easiser
-
-=head1 SYNOPSIS
-
+#Classic example of Moose
 package Point;
   use Moose;
 
@@ -38,21 +30,4 @@ package Point;
   my $point2 = Point->new({x => 5, y => 7});
 
   my $point3d = Point3D->new(x => 5, y => 42, z => -5);
-
-=head1 DESCRIPTION
-
-This is the classic Point example
-
-=head1 SEE ALSO
-
-L<http://www.gigamonkeys.com/book/object-reorientation-generic-functions.html>
-
-=head1 AUTHOR
-
-Qiang Zhang
-
-=head1 Recipe 2 BankAccount example
-
-=cut
-
 
