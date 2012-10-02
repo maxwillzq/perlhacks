@@ -1,3 +1,4 @@
+use strict;
 sub binary
 {
 	my ($input) = @_;
@@ -91,5 +92,5 @@ sub total_size
 }
 
 #print total_size('C:\Users\qzhang\Downloads\coursera-download-v0.5');
-
+1;
 
